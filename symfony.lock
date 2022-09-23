@@ -130,9 +130,6 @@
             "./config/packages/nelmio_cors.yaml"
         ]
     },
-    "paragonie/random_compat": {
-        "version": "v9.99.100"
-    },
     "php": {
         "version": "7.2"
     },
