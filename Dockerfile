@@ -30,9 +30,9 @@ RUN curl --silent --show-error -sS https://getcomposer.org/installer | php -- --
     find -type f -name '*.md' -delete;
 #   twig have Test as src code
 #   find -name "[Tt]est*" -type d -exec rm -rf {} + 
-    
 
-FROM php:8.0-alpine3.14
+
+#FROM php:8.0-alpine3.14
 
 EXPOSE 8000
 WORKDIR /var/www/html
