@@ -41,8 +41,8 @@ ENV APP_ENV prod
 ENV APP_SECRET c4136a0540553455b122461ab6923e9d
 ENV WKHTMLTOPDF_PATH wkhtmltopdf
 ENV CLIENT_TOKEN 123456
-ENV SOL_USER 20000000001MODDATOS
-ENV SOL_PASS moddatos
+ENV SOL_USER 20316643061NDABEMBU
+ENV SOL_PASS ignadenot
 ENV CORS_ALLOW_ORIGIN .
 ENV FE_URL https://e-beta.sunat.gob.pe/ol-ti-itcpfegem-beta/billService
 ENV RE_URL https://e-beta.sunat.gob.pe/ol-ti-itemision-otroscpe-gem-beta/billService
