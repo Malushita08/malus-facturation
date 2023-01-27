@@ -44,9 +44,15 @@ ENV CLIENT_TOKEN 123456
 ENV SOL_USER 20316643061NDABEMBU
 ENV SOL_PASS ignadenot
 ENV CORS_ALLOW_ORIGIN .
-ENV FE_URL https://e-beta.sunat.gob.pe/ol-ti-itcpfegem-beta/billService
-ENV RE_URL https://e-beta.sunat.gob.pe/ol-ti-itemision-otroscpe-gem-beta/billService
+
+#ENV FE_URL https://e-beta.sunat.gob.pe/ol-ti-itcpfegem-beta/billService
+#ENV RE_URL https://e-beta.sunat.gob.pe/ol-ti-itemision-otroscpe-gem-beta/billService
+#ENV GUIA_URL https://e-beta.sunat.gob.pe/ol-ti-itemision-guia-gem-beta/billService
+
+ENV FE_URL https://e-factura.sunat.gob.pe/ol-ti-itcpfegem/billService
+ENV RE_URL https://e-factura.sunat.gob.pe/ol-ti-itemision-otroscpe-gem/billService
 ENV GUIA_URL https://e-beta.sunat.gob.pe/ol-ti-itemision-guia-gem-beta/billService
+
 ENV TRUSTED_PROXIES="127.0.0.1,REMOTE_ADDR"
 
 ARG PHP_EXT_DIR=/usr/local/lib/php/extensions/no-debug-non-zts-20200930
